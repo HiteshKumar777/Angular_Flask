@@ -1,0 +1,47 @@
+
+.form-group
+{
+  position: relative;
+  margin-top: 50px;
+}
+.input1{
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  outline: none;
+  border-color: #BCBCBC;
+  border-width: 2px;
+  color: rgb(120,120,120);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  width:100%;
+ }
+ .input1:focus + .control-label
+ {
+     transform: translateY(-10px);
+ }
+ .input1:focus
+ {
+    border-color: #007bff;
+ }
+.control-label
+{
+  position: absolute;
+  transition: all 0.4s;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgb(120,120,120);
+  font-weight: 600;
+  left:1px;
+  top:-27px;
+}
+.input-group-text
+{
+  background-color: white;
+}
+.fa
+{
+  position:absolute;
+  margin-left: -20px;
+}
